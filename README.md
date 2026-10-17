@@ -127,9 +127,8 @@ It's safer than `eval()`, easier to extend, and a good way to learn how calculat
 |---|---|
 | 🌐 **Live project** | [muneeb-fayaz.github.io/myEcalculator](https://muneeb-fayaz.github.io/myEcalculator/) |
 | 💻 **GitHub** | [github.com/muneeb-fayaz](https://github.com/muneeb-fayaz) |
-| 💼 **LinkedIn** | [linkedin.com/in/YOUR-USERNAME](https://www.linkedin.com/in/YOUR-USERNAME) |
-| 📧 **Email** | your.email@example.com |
-| 🖼️ **Portfolio** | [your-portfolio-link](https://your-portfolio-link.com) |
+| 💼 **LinkedIn** | [linkedin.com/in/muneeb-fayaz-0440823a4](https://www.linkedin.com/in/muneeb-fayaz-0440823a4/) |
+| 📧 **Email** | [muneebfayaz439@gmail.com](mailto:muneebfayaz439@gmail.com) |
 
 ---
 
