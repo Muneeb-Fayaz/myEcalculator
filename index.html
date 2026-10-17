@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Muneeb's Scientific Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="calculator">
+
+    <!-- top strip with the name and the little solar panel -->
+    <div class="top-bar">
+      <span class="brand">MUNEEB'S SCIENTIFIC CALCULATOR</span>
+      <div class="solar"></div>
+    </div>
+
+    <!-- the screen -->
+    <div class="screen">
+      <div class="status">
+        <span id="angle-mode">DEG</span>
+        <span id="memory-flag"></span>
+      </div>
+      <div class="expression" id="expression"></div>
+      <div class="result" id="result">0</div>
+    </div>
+
+    <!-- all the buttons -->
+    <div class="buttons" id="buttons">
+
+      <!-- row 1 -->
+      <button class="func" data-action="angle">DEG/RAD</button>
+      <button class="func" data-insert="sin(">sin</button>
+      <button class="func" data-insert="cos(">cos</button>
+      <button class="func" data-insert="tan(">tan</button>
+      <button class="func" data-insert="!">n!</button>
+
+      <!-- row 2 -->
+      <button class="euler" data-insert="e">e</button>
+      <button class="func" data-insert="exp(">e<sup>x</sup></button>
+      <button class="func" data-insert="ln(">ln</button>
+      <button class="func" data-insert="log(">log</button>
+      <button class="func" data-insert="π">π</button>
+
+      <!-- row 3 -->
+      <button class="func" data-insert="√(">√</button>
+      <button class="func" data-insert="^2">x²</button>
+      <button class="func" data-insert="^">x<sup>y</sup></button>
+      <button class="func" data-insert="1÷(">1/x</button>
+      <button class="func" data-insert="%">%</button>
+
+      <!-- row 4 -->
+      <button class="func" data-insert="(">(</button>
+      <button class="func" data-insert=")">)</button>
+      <button class="func" data-action="negate">±</button>
+      <button class="clear" data-action="delete">DEL</button>
+      <button class="clear" data-action="clear">AC</button>
+
+      <!-- row 5 -->
+      <button class="number" data-insert="7">7</button>
+      <button class="number" data-insert="8">8</button>
+      <button class="number" data-insert="9">9</button>
+      <button class="operator" data-insert="÷">÷</button>
+      <button class="func" data-insert="Ans">Ans</button>
+
+      <!-- row 6 -->
+      <button class="number" data-insert="4">4</button>
+      <button class="number" data-insert="5">5</button>
+      <button class="number" data-insert="6">6</button>
+      <button class="operator" data-insert="×">×</button>
+      <button class="func" data-action="memory-add">M+</button>
+
+      <!-- row 7 -->
+      <button class="number" data-insert="1">1</button>
+      <button class="number" data-insert="2">2</button>
+      <button class="number" data-insert="3">3</button>
+      <button class="operator" data-insert="−">−</button>
+      <button class="func" data-action="memory-recall">MR</button>
+
+      <!-- row 8 -->
+      <button class="number" data-insert="0">0</button>
+      <button class="number" data-insert=".">.</button>
+      <button class="number" data-insert="E">EXP</button>
+      <button class="operator" data-insert="+">+</button>
+      <button class="equals" data-action="equals">=</button>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
